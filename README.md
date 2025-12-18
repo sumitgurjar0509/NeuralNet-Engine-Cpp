@@ -42,7 +42,7 @@ Showcasing strong C++ + ML foundations on a resume
 ✅ Clean, readable, and extensible codebase
 
 ## 🏗️ Project Architecture
-
+```
 NeuralNet-Engine-Cpp/
 │
 ├── CMakeLists.txt        # Build configuration
@@ -90,7 +90,7 @@ Gradients calculated using backpropagation
 Weights updated using gradient descent
 
 ## 🔁 Training Pipeline
-Input → Forward Pass → Loss Calculation
+```Input → Forward Pass → Loss Calculation
       → Backpropagation → Weight Update
       → Repeat for Epochs
 
@@ -120,11 +120,10 @@ CMake (≥ 3.10)
 ```mkdir build
 cd build
 cmake ..
-make ```
+make 
 
 ▶️ Run
 ```./NeuralNetEngine
-```
 ## 📈 Results
 
 The network successfully learns digit classification
