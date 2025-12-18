@@ -58,7 +58,7 @@ NeuralNet-Engine-Cpp/
 │   └── Utils.h
 │
 └── data/
-    └── mnist/            # MNIST dataset files
+    └── mnist/            # MNIST dataset files```
 
 Design philosophy:
 Each component (network, layers, utilities) is kept separate to ensure maintainability and extensibility.
@@ -92,7 +92,7 @@ Weights updated using gradient descent
 ## 🔁 Training Pipeline
 ```Input → Forward Pass → Loss Calculation
       → Backpropagation → Weight Update
-      → Repeat for Epochs
+      → Repeat for Epochs```
 
 This explicit pipeline makes the learning process transparent and debuggable, unlike black-box frameworks.
 
@@ -120,10 +120,10 @@ CMake (≥ 3.10)
 ```mkdir build
 cd build
 cmake ..
-make 
+make```
 
 ▶️ Run
-```./NeuralNetEngine
+```./NeuralNetEngine```
 ## 📈 Results
 
 The network successfully learns digit classification
