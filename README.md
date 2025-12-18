@@ -55,7 +55,7 @@ NeuralNet-Engine-Cpp/
 │
 └── data/
     └── mnist/            # MNIST dataset files
-
+```
 
 ## 🧩 Design Philosophy
 Each component (network, layers, utilities) is kept separate to ensure **maintainability and extensibility**.
@@ -88,8 +88,7 @@ Each component (network, layers, utilities) is kept separate to ensure **maintai
 Input → Forward Pass → Loss Calculation
       → Backpropagation → Weight Update
       → Repeat for Epochs
-
-
+```
 This explicit pipeline makes the learning process **transparent and debuggable**, unlike black-box frameworks.
 
 ---
@@ -117,11 +116,12 @@ mkdir build
 cd build
 cmake ..
 make
+```
 
 ### ▶️ Run
 ```bash
 ./NeuralNetEngine
-
+```
 ## 📈 Results
 
 - The network successfully learns digit classification  
